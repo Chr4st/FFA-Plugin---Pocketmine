@@ -12,7 +12,6 @@ class FFATask extends PluginTask {
     }
     
     public $prefix = TextFormat::DARK_GRAY . "[" . TextFormat::BLUE . "FFA" . TextFormat::DARK_GRAY . "] " . TextFormat::WHITE;
-
     public function onRun($tick) {
         $tiles = $this->getOwner()->getServer()->getDefaultLevel()->getTiles();
         foreach ($tiles as $t) {
@@ -39,3 +38,4 @@ class FFATask extends PluginTask {
     }
 
 }
+// some things are german bc im german and i code with german text sometimes too
